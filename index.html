@@ -334,7 +334,7 @@
 <div id="screen-title">
   <div class="title-stars"></div>
   <div class="title-logo">REALM<br>OF<br>REGIONS</div>
-  <div class="title-sub" style="color:var(--lava-light);letter-spacing:4px;">— R E M A K E —</div>
+  <div class="title-sub" style="color:var(--lava-light);letter-spacing:4px;">— 2 —</div>
   <div class="title-sub">by Simon Iacopelli</div>
   <div class="name-input-wrap">
     <label>YOUR NAME</label>
@@ -1261,7 +1261,7 @@ function onEnemyDefeated() {
   } else {
     const isFinalBoss = e.isBoss && e.isFinal;
     if (isFinalBoss) {
-      showMsg('🏆 YOU WIN!', 'The ' + e.name + ' is defeated!' + lastWordsLine + heartLine + '\n\n' + player.name + ' has conquered the Realm of Regions Remake!', [{label:'Celebrate!', fn:()=>{ closeMsg(); showView('world'); }}]);
+      showMsg('🏆 YOU WIN!', 'The ' + e.name + ' is defeated!' + lastWordsLine + heartLine + '\n\n' + player.name + ' has conquered Realm of Regions 2!', [{label:'Celebrate!', fn:()=>{ closeMsg(); showView('world'); }}]);
     } else {
       showMsg(e.isBoss ? 'Boss Defeated! 👑' : 'Victory! ⚔️', msg, buttons);
     }
