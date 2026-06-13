@@ -1,4 +1,4 @@
-# Realm of Regions: Remake
+# Realm of Regions 2
 
 **A browser RPG designed and created by Simon Iacopelli — sequel to Realm of Regions.**
 
